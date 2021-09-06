@@ -1,0 +1,23 @@
+{
+  "name": "mercadolibre",
+  "version": "1.0.0",
+  "description": "Bla",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicoaugsbuger/MercadoLibre.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicoaugsbuger/MercadoLibre/issues"
+  },
+  "homepage": "https://github.com/nicoaugsbuger/MercadoLibre#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
