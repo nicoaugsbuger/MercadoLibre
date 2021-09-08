@@ -12,8 +12,8 @@ const public = path.resolve('./public')//const public = path.join(__dirname, './
 app.use(express.static(public));
 
 const PORT = process.env.PORT || 3000;
-//ponemos a escuchar al servidor
-// Recibe dos parametros, el primero es el puerto, y el segundo es la funcion o lo que queremos que se ejecute
+//Ponemos a escuchar al servidor
+//Recibe dos parametros, el primero es el puerto, y el segundo es la funcion o lo que queremos que se ejecute
 app.listen(PORT, () => {console.log('Servidor corriendo en el puerto http://localhost:3000')});
 //
 app.get('/', (req, res) => {res.sendFile(path.resolve('./views/index.html'))});
